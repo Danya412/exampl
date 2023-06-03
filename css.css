@@ -1,0 +1,75 @@
+.li
+{
+    background-color: aquamarine;
+    
+}
+.ul
+{
+    list-style: none;
+}
+
+.li:nth-child(odd)
+{
+    background-color: chartreuse;
+}
+
+.li:nth-child(even)
+{
+    background-color: darkblue;
+}
+
+.li:first-child
+{
+    background-color: brown;
+}
+
+.li:last-child
+{
+    background-color: rgb(208, 255, 0);
+}
+
+
+.li:nth-child(3n+2)
+{
+    background-color: darkgoldenrod;
+}
+
+.d1
+{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.d1:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(77, 255, 7);
+}
+
+.d2
+{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.d2:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+.d3
+{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.d3:hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 245, 232);
+}
+
